@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+
+    <link rel="stylesheet" href="Assignment4Style.css">
+</head>
+<body>
+    
+    <div id="contentWrap">
+
+
+    <!--Header area-->
+    <header>
+
+        <!--Image logo with hyperlink-->
+        <a href="https://www.centennialcollege.ca/" target="_blank">
+            <img src="CentennialLogo.jpeg" alt="college logo" class="logo">
+        </a>
+
+        <h1>Centennial College</h1>
+        <h3>Continuing Education Course / Instructor Evaluation</h3>
+        <p class="headerP">Please read each statement carefully and consider each one individually.
+            Use the computer card to make your choice (use a pencil to fill in the space).
+            Give only <b>one answer</b> for each question.
+        </p>
+
+    </header>
+
+
+    <!--Information area-->
+
+    <form class="surveyForm">
+
+    <div class="infoArea">
+
+    <div>
+        <label for="courseName">Course Name/Code: </label>
+        <input type="text" id="courseName" name="courseName">
+    </div>
+
+    <div>
+        <label for ="semester_choice">Semester: </label>
+            <input type="radio" id="fall" name="semester_choice" value="Fall"> Fall
+            <input type="radio" id="winter" name="semester_choice" value="Winter"> Winter
+            <input type="radio" id="springSummer" name="semester_choice" value="Spring/Summer"> Spring/Summer
+    </div
+    >
+    <div>
+        <label for="courseYear">Year: </label> 
+            <input type="text" id="courseYear" name="courseYear">
+    </div>
+
+    <div>
+        <label for="courseInstructor">Instructor: </label>
+            <input type="text" id="courseInstructor" name="courseInstructor">
+    </div>
+
+
+    </div>
+
+
+
+    <!--Survey: Instructor area-->
+
+    <div class="instSurveyArea">
+
+    <p class="instHeader">
+        Instructor
+    </p>
+
+    <p>How would you rate the instructor's: </p>
+
+    <div>
+        <label for="rate_knowledge">1. <b>Knowledge</b> of subject?<br></label>
+            <input type="radio" id="excellent" name="rate_knowledge" value="Excellent"> Excellent 
+            <input type="radio" id="good" name="rate_knowledge" value="Good"> Good 
+            <input type="radio" id="fair" name="rate_knowledge" value="Fair"> Fair 
+            <input type="radio" id="notSatisfactory" name="rate_knowledge" value="Not Satisfactory"> Not Satisfactory 
+    </div>
+
+    <div>
+        <label for="rate_helpfulness">2. <b>Helpfulness</b>?<br></label>
+            <input type="radio" id="excellent" name="rate_helpfulness" value="Excellent"> Excellent 
+            <input type="radio" id="good" name="rate_helpfulness" value="Good"> Good 
+            <input type="radio" id="fair" name="rate_helpfulness" value="Fair"> Fair 
+            <input type="radio" id="notSatisfactory" name="rate_helpfulness" value="Not Satisfactory"> Not Satisfactory 
+    </div>
+
+    <div>
+        <label for="rate_respect">3. <b>Courtesy and respect</b> for all students?<br></label>
+            <input type="radio" id="excellent" name="rate_respect" value="Excellent"> Excellent 
+            <input type="radio" id="good" name="rate_respect" value="Good"> Good 
+            <input type="radio" id="fair" name="rate_respect" value="Fair"> Fair 
+            <input type="radio" id="notSatisfactory" name="rate_respect" value="Not Satisfactory"> Not Satisfactory 
+    </div>
+
+    <div>
+        <label for="rate_comm">4. <b>Communication</b> skills?<br></label>
+            <input type="radio" id="excellent" name="rate_comm" value="Excellent"> Excellent 
+            <input type="radio" id="good" name="rate_comm" value="Good"> Good 
+            <input type="radio" id="fair" name="rate_comm" value="Fair"> Fair 
+            <input type="radio" id="notSatisfactory" name="rate_comm" value="Not Satisfactory"> Not Satisfactory 
+    </div>
+
+    <div>
+        <label for="rate_perform">5. Overall <b>performance</b>?<br></label>
+            <input type="radio" id="excellent" name="rate_perform" value="Excellent"> Excellent 
+            <input type="radio" id="good" name="rate_perform" value="Good"> Good 
+            <input type="radio" id="fair" name="rate_perform" value="Fair"> Fair 
+            <input type="radio" id="notSatisfactory" name="rate_perform" value="Not Satisfactory"> Not Satisfactory 
+    </div>
+
+    </div><!--Survey: Instructor Area End-->
+
+
+    <!--Survey: Course Area-->
+    <div class="courseSurveyArea">
+
+        <p class="courseHeader">
+            Course
+        </p>
+
+        <div>
+            <label for="rate_material">6. How would you rate the <b>course materials</b>?<br></label>
+                <input type="radio" id="excellent" name="rate_material" value="Excellent"> Excellent 
+                <input type="radio" id="good" name="rate_material" value="Good"> Good 
+                <input type="radio" id="fair" name="rate_material" value="Fair"> Fair 
+                <input type="radio" id="notSatisfactory" name="rate_material" value="Not Satisfactory"> Not Satisfactory 
+        </div>
+
+        <div>
+            <label for="rate_expect">7. How much did this course meet your <b>expectations</b>?<br></label>
+                <input type="radio" id="excellent" name="rate_expect" value="Excellent"> Excellent 
+                <input type="radio" id="good" name="rate_expect" value="Good"> Good 
+                <input type="radio" id="fair" name="rate_expect" value="Fair"> Fair 
+                <input type="radio" id="notSatisfactory" name="rate_expect" value="Not Satisfactory"> Not Satisfactory 
+        </div>
+
+        <div>
+            <label for="rate_overall">8. How would you rate this course <b>(overall)</b>?<br></label>
+                <input type="radio" id="excellent" name="rate_overall" value="Excellent"> Excellent 
+                <input type="radio" id="good" name="rate_overall" value="Good"> Good 
+                <input type="radio" id="fair" name="rate_overall" value="Fair"> Fair 
+                <input type="radio" id="notSatisfactory" name="rate_overall" value="Not Satisfactory"> Not Satisfactory 
+        </div>
+
+    </div><!--Survey: Course Area End-->
+
+
+
+    <!--Survey: General Information Area-->
+    <div class="generalInfoArea">
+
+        <p class="generalInfoHeader">
+            General Information
+        </p>
+
+        <div>
+            <label for="rate_generalInfo">9. Was the <b>course outline</b> reviewed/explained at the beginning of your course?<br></label>
+                <input type="radio" id="yes" name="rate_generalInfo" value="Yes"> Yes
+                <input type="radio" id="no" name="rate_generalInfo" value="No"> No
+                <input type="radio" id="notSure" name="rate_generalInfo" value="Not_Sure"> Not Sure
+        </div>
+
+        <div>
+            <label for="rate_recommend">10. Would you <b>recommend</b> this course to a friend with the same interests?<br></label>
+                <input type="radio" id="yes" name="rate_recommend" value="Yes"> Yes
+                <input type="radio" id="no" name="rate_recommend" value="No"> No
+                <input type="radio" id="notSure" name="rate_recommend" value="Not_Sure"> Not Sure
+        </div>
+
+    </div><!--Survey: General Information Area End-->
+
+
+
+    <!--Survey: Any Other Comments Area-->
+    <div class="commentsArea">
+
+        <p class="commentsHeader">
+            <span>Any Other Comments</span> (please use the back of the computer card or this paper if necessary)
+        </p>
+
+        <div>
+            <label for="best_thing">11. What is the <b>best thing</b> about this course?<br></label>
+                <textarea id="commentBestThing" name="best_thing" placeholder="Comment about the best thing here."></textarea>
+        </div>
+
+        <div>
+            <label for="comment_improve">12. How could we <b>improve</b> this course?<br></label>
+                <textarea id="commentImprove" name="comment_improve" placeholder="Comment how we can improve this course here."></textarea>
+        </div>
+
+        <div>
+            <label for="comment_other">13. Other: <br></label>
+                <textarea id="commentOther" name="comment_other" placeholder="Any other comments here."></textarea>
+        
+        </div>
+
+
+    </div><!--Survey: Any Other Comments Area End-->
+
+    <!--buttons-->
+    <br>
+    <input type="submit" id="submitSurvey" value="SUBMIT">
+    <input type="reset" id="resetSurvey" value="RESET">
+    <br>
+
+    </form><!--End of the entire form-->
+
+
+
+    <!--Footer Area-->
+    <footer>
+
+        <p>Thank you! We pay attention to your feedback!</p>
+
+        <span class="footerLinks">
+            Web: 
+            <a href="https://secure.centennialcollege.ca/webreg/help.do" target="_blank">
+                www.centennialcollege.ca/continuing_education
+            </a>
+        </span>
+
+        <span class="footerLinks">
+            Email: 
+            <a href="mailto:continuingeducation@centennialcollege.ca" target="_blank">
+                continuingeducation@centennialcollege.ca
+            </a>
+        </span>
+
+    </footer>
+
+
+
+    </div><!--ContentWrap Div-->
+
+    <!-- MinYoung Seol / Student ID: 301203510 /
+        COMP213 Web Interface Design Section 007 /
+        Assignment 4
+    -->
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+body {
+    background-color:rgb(231, 231, 231);
+    font-family:sans-serif;
+}
+
+#contentWrap{
+    border: solid 1px black;
+    width: 850px;
+    margin:auto;
+    padding:4%;
+    margin-top:100px;
+    margin-bottom:150px;
+}
+
+.logo {
+    display:block;
+    margin:auto;
+    width: 350px;
+}
+
+
+header > h1 {
+    text-align:center;
+}
+header > h3{
+    text-align:center;
+}
+header > p {
+    text-align: left;
+}
+
+
+.infoArea{
+    margin-top:50px;
+    margin-bottom:50px;
+    width:60%;
+}
+.infoArea > div {
+    margin-bottom:10px;
+}
+#courseName{
+    margin-left: 15px;
+    width: 60%;
+}
+#fall {
+    margin-left: 20px;
+}
+#winter {
+    margin-left: 20px;
+}
+#springSummer {
+    margin-left: 20px;
+}
+#courseInstructor{
+    width:50%;
+}
+
+
+#excellent, #good, #fair, #notSatisfactory{
+    margin-top:10px;
+}
+#good, #fair, #notSatisfactory {
+    margin-left:70px;
+}
+
+
+.instSurveyArea {
+    margin-bottom: 30px;
+}
+.instHeader {
+    background-color: rgb(58, 58, 58);
+    color:rgb(174, 207, 24);
+    padding:1%;
+    padding-left:15px;
+    font-weight: bolder;
+    font-size:large;
+}
+.instSurveyArea > div {
+    margin-top:25px;
+}
+
+
+.courseSurveyArea {
+    margin-bottom: 30px;
+}
+.courseHeader {
+    background-color: rgb(58, 58, 58);
+    color:rgb(174, 207, 24);
+    padding:1%;
+    padding-left:15px;
+    font-weight: bolder;
+    font-size:large;
+}
+.courseSurveyArea > div {
+    margin-top:25px;
+}
+
+
+.generalInfoArea {
+    margin-bottom: 30px;
+}
+.generalInfoHeader {
+    background-color: rgb(58, 58, 58);
+    color:rgb(174, 207, 24);
+    padding:1%;
+    padding-left:15px;
+    font-weight: bolder;
+    font-size:large;
+}
+.generalInfoArea > div {
+    margin-top:25px;
+}
+#yes, #no, #notSure {
+    margin-top:10px;
+}
+#no, #notSure {
+    margin-left:100px;
+}
+
+
+.commentsArea {
+    margin-bottom: 20px;
+}
+.commentsHeader {
+    background-color: rgb(58, 58, 58);
+    padding:1%;
+    padding-left:15px;
+    color:rgb(124, 150, 86)
+}
+.commentsHeader > span{
+    color:rgb(174, 207, 24);
+    font-weight:bolder;
+    font-size:large;
+}
+.commentsArea > div {
+    margin-top:25px;
+}
+#commentBestThing, #commentImprove, #commentOther {
+    width:60%;
+    height:70px;
+    overflow-y: scroll;
+}
+
+
+#submitSurvey, #resetSurvey {
+    width:130px;
+    padding:1%;
+    background-color: rgb(58, 58, 58);
+    color:rgb(174, 207, 24);
+    border:none;
+}
+#submitSurvey:hover, #resetSurvey:hover{
+    background-color: rgb(174, 207, 24);
+    color:rgb(58, 58, 58);
+    cursor:pointer;
+    transition-duration: 0.18s;
+}
+#resetSurvey{
+    margin-left:25px;
+}
+
+
+footer{
+    margin-top:70px;
+    padding-top:30px;
+    padding-bottom: 15px;
+}
+footer > p{
+    text-align: center;
+    color:rgb(77, 77, 77);
+    font-size: small;
+    font-style: italic;
+}
+footer > span {
+    display:inline-block;
+    width:49.51%;
+    text-align: center;
+    font-size:13px;
+}
